@@ -39,6 +39,10 @@ dependencies {
 
 }
 
+bootBuildImage {
+    imageName = "alexyun/${project.name}:latest"
+}
+
 tasks.named('bootBuildImage') {
     builder = 'paketobuildpacks/builder-jammy-base:latest'
 }
