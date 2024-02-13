@@ -1,0 +1,15 @@
+spring:
+  config:
+    activate:
+      on-profile: "prod"
+
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to Bank accounts related prod APIs"
+  contactDetails:
+    name: "Johana Doe - Product Owner"
+    email: "johana@test.com"
+  onCallSupport:
+    - 1234567890
