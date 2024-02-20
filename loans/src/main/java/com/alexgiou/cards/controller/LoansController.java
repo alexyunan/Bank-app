@@ -3,6 +3,7 @@ package com.alexgiou.cards.controller;
 import com.alexgiou.accounts.dto.ErrorResponseDto;
 import com.alexgiou.accounts.dto.ResponseDto;
 import com.alexgiou.cards.constants.LoansConstants;
+import com.alexgiou.cards.dto.LoansContactInfoDto;
 import com.alexgiou.cards.dto.LoansDto;
 import com.alexgiou.cards.service.ILoansService;
 import io.swagger.v3.oas.annotations.Operation;
@@ -32,6 +33,7 @@ import static com.alexgiou.cards.constants.LoansConstants.*;
 public class LoansController {
 
     private final ILoansService iLoansService;
+    private final LoansContactInfoDto loansContactInfoDto;
 
     @Operation(
             summary = "Create Loan REST API",
@@ -161,4 +163,28 @@ public class LoansController {
         }
     }
 
+    @Operation(
+            summary = "Get Contact Info",
+            description = "Contact Info details that can be reached out in case of any issues"
+    )
+    @ApiResponses({
+            @ApiResponse(
+                    responseCode = "200",
+                    description = "HTTP Status OK"
+            ),
+            @ApiResponse(
+                    responseCode = "500",
+                    description = "HTTP Status Internal Server Error",
+                    content = @Content(
+                            schema = @Schema(implementation = ErrorResponseDto.class)
+                    )
+            )
+    }
+    )
+    @GetMapping("/contact-info")
+    public ResponseEntity<LoansContactInfoDto> getContactInfo() {
+        return ResponseEntity
+                .status(HttpStatus.OK)
+                .body(loansContactInfoDto);
+    }
 }
