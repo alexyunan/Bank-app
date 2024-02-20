@@ -1,0 +1,10 @@
+build:
+  version: "3.0"
+
+accounts:
+  message: "Welcome to Bank accounts related local APIs"
+  contactDetails:
+    name: "Alexandros Giounan"
+    email: "alex@test.com"
+  onCallSupport:
+    - 1234567890
