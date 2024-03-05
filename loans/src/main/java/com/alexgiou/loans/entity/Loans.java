@@ -1,6 +1,6 @@
 package com.alexgiou.loans.entity;
 
-import com.alexgiou.accounts.entity.BaseEntity;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.Id;
