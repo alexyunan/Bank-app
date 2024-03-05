@@ -1,6 +1,6 @@
-package com.alexgiou.cards.repository;
+package com.alexgiou.loans.repository;
 
-import com.alexgiou.cards.entity.Loans;
+import com.alexgiou.loans.entity.Loans;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

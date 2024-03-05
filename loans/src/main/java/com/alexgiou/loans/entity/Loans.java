@@ -1,4 +1,4 @@
-package com.alexgiou.cards.entity;
+package com.alexgiou.loans.entity;
 
 import com.alexgiou.accounts.entity.BaseEntity;
 import jakarta.persistence.Entity;

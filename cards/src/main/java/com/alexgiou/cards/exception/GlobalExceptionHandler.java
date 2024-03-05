@@ -1,6 +1,6 @@
 package com.alexgiou.cards.exception;
 
-import com.alexgiou.accounts.dto.ErrorResponseDto;
+import com.alexgiou.cards.dto.ErrorResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

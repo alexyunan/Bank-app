@@ -1,4 +1,4 @@
-package com.alexgiou.cards.dto;
+package com.alexgiou.loans.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotEmpty;

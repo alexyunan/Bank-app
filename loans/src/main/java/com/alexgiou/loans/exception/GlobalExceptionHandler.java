@@ -1,6 +1,7 @@
-package com.alexgiou.cards.exception;
+package com.alexgiou.loans.exception;
 
-import com.alexgiou.accounts.dto.ErrorResponseDto;
+
+import com.alexgiou.loans.dto.ErrorResponseDto;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

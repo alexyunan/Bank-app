@@ -1,11 +1,12 @@
-package com.alexgiou.cards.controller;
+package com.alexgiou.loans.controller;
 
-import com.alexgiou.accounts.dto.ErrorResponseDto;
-import com.alexgiou.accounts.dto.ResponseDto;
-import com.alexgiou.cards.constants.LoansConstants;
-import com.alexgiou.cards.dto.LoansContactInfoDto;
-import com.alexgiou.cards.dto.LoansDto;
-import com.alexgiou.cards.service.ILoansService;
+
+import com.alexgiou.loans.constants.LoansConstants;
+import com.alexgiou.loans.dto.ErrorResponseDto;
+import com.alexgiou.loans.dto.LoansContactInfoDto;
+import com.alexgiou.loans.dto.LoansDto;
+import com.alexgiou.loans.dto.ResponseDto;
+import com.alexgiou.loans.service.ILoansService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
@@ -20,7 +21,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import static com.alexgiou.cards.constants.LoansConstants.*;
+import static com.alexgiou.loans.constants.LoansConstants.*;
 
 
 @Tag(

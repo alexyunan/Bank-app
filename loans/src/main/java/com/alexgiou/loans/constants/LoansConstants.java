@@ -1,4 +1,4 @@
-package com.alexgiou.cards.constants;
+package com.alexgiou.loans.constants;
 
 public interface LoansConstants {
 

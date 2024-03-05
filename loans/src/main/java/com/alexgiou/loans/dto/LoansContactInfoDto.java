@@ -1,4 +1,4 @@
-package com.alexgiou.cards.dto;
+package com.alexgiou.loans.dto;
 
 import lombok.Getter;
 import lombok.Setter;

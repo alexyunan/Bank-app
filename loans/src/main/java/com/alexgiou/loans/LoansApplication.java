@@ -1,6 +1,6 @@
-package com.alexgiou.cards;
+package com.alexgiou.loans;
 
-import com.alexgiou.cards.dto.LoansContactInfoDto;
+import com.alexgiou.loans.dto.LoansContactInfoDto;
 import io.swagger.v3.oas.annotations.ExternalDocumentation;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.info.Contact;

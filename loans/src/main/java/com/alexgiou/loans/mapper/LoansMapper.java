@@ -1,8 +1,8 @@
-package com.alexgiou.cards.mapper;
+package com.alexgiou.loans.mapper;
 
 
-import com.alexgiou.cards.dto.LoansDto;
-import com.alexgiou.cards.entity.Loans;
+import com.alexgiou.loans.dto.LoansDto;
+import com.alexgiou.loans.entity.Loans;
 import org.mapstruct.Mapper;
 import org.mapstruct.ReportingPolicy;
 

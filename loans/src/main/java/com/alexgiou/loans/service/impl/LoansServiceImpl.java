@@ -1,13 +1,13 @@
-package com.alexgiou.cards.service.impl;
+package com.alexgiou.loans.service.impl;
 
-import com.alexgiou.cards.constants.LoansConstants;
-import com.alexgiou.cards.dto.LoansDto;
-import com.alexgiou.cards.entity.Loans;
-import com.alexgiou.cards.exception.LoanAlreadyExistsException;
-import com.alexgiou.cards.exception.ResourceNotFoundException;
-import com.alexgiou.cards.mapper.LoansMapper;
-import com.alexgiou.cards.repository.LoansRepository;
-import com.alexgiou.cards.service.ILoansService;
+import com.alexgiou.loans.constants.LoansConstants;
+import com.alexgiou.loans.dto.LoansDto;
+import com.alexgiou.loans.entity.Loans;
+import com.alexgiou.loans.exception.LoanAlreadyExistsException;
+import com.alexgiou.loans.exception.ResourceNotFoundException;
+import com.alexgiou.loans.mapper.LoansMapper;
+import com.alexgiou.loans.repository.LoansRepository;
+import com.alexgiou.loans.service.ILoansService;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 
