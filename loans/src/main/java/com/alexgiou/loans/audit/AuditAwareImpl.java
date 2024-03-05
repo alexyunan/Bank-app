@@ -1,4 +1,4 @@
-package com.alexgiou.cards.audit;
+package com.alexgiou.loans.audit;
 
 import org.springframework.data.domain.AuditorAware;
 import org.springframework.stereotype.Component;
