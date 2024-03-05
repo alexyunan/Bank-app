@@ -1,4 +1,4 @@
-package com.alexgiou.cards.exception;
+package com.alexgiou.loans.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

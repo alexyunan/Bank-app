@@ -1,10 +1,10 @@
 package com.alexgiou.cards.controller;
 
-import com.alexgiou.accounts.dto.ErrorResponseDto;
-import com.alexgiou.accounts.dto.ResponseDto;
 import com.alexgiou.cards.constants.CardsConstants;
 import com.alexgiou.cards.dto.CardsContactInfoDto;
 import com.alexgiou.cards.dto.CardsDto;
+import com.alexgiou.cards.dto.ErrorResponseDto;
+import com.alexgiou.cards.dto.ResponseDto;
 import com.alexgiou.cards.service.ICardsService;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
@@ -157,7 +157,7 @@ public class CardsController {
                     .body(new ResponseDto(CardsConstants.STATUS_417, CardsConstants.MESSAGE_417_DELETE));
         }
     }
-    
+
     @Operation(
             summary = "Get Contact Info",
             description = "Contact Info details that can be reached out in case of any issues"

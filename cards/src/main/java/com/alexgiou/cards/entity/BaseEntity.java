@@ -1,4 +1,4 @@
-package com.alexgiou.accounts.entity;
+package com.alexgiou.cards.entity;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.EntityListeners;

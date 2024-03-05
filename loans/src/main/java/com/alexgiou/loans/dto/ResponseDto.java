@@ -1,4 +1,4 @@
-package com.alexgiou.accounts.dto;
+package com.alexgiou.loans.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.AllArgsConstructor;

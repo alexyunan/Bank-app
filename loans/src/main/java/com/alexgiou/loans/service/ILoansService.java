@@ -1,6 +1,6 @@
-package com.alexgiou.cards.service;
+package com.alexgiou.loans.service;
 
-import com.alexgiou.cards.dto.LoansDto;
+import com.alexgiou.loans.dto.LoansDto;
 
 public interface ILoansService {
 
